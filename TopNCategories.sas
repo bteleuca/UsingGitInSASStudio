@@ -18,6 +18,8 @@
 %let measureformat=%str(format=BEST6.);
 %let stat=MEAN;
 %let n=5;
+/* your-branch: Added q macro variable */
+%let q=16;
 %let category=Type;
 title "Top Models by MPG_City for each region of Type";
 footnote;
