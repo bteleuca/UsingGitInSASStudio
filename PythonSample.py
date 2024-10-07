@@ -1,6 +1,6 @@
 import os, sys
 sys.path
-
+import swat
 # define our data references
 input_table = 'SASHELP.CLASS'
 output_table = 'WORK.PYTHONOUT'
