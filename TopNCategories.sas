@@ -16,7 +16,7 @@
 %let measure=MPG_City;
 %let measureformat=%str(format=BEST6.);
 %let stat=MEAN;
-%let n=5;
+%let n=10;
 %let category=Type;
 title "Top Models by MPG_City for each region of Type";
 footnote;
