@@ -17,14 +17,9 @@ import pandas as pd
 import numpy as np
 
 # %%
-print(os.getcwd())
-workspace = os.getcwd() + '/UsingGitInSASStudio/data/'
-df = pd.read_csv(workspace + "banking_raw.csv")
+os.chdir('/gelcontent/MyGitClone/')
+df = pd.read_csv("./data/banking_raw.csv")
 
-<<<<<<< HEAD
-=======
-
->>>>>>> origin/feature/sas_workbench
 df.head()
 
 # %% [markdown]
@@ -72,6 +67,7 @@ X_train.shape, X_test.shape, y_train.shape, y_test.shape
 # For details about using the `GradientBoostingClassifier` class in the `sasviya` package, see the [GradientBoostingClassifier documentation](https://documentation.sas.com/?cdcId=workbenchcdc&cdcVersion=default&docsetId=explore&docsetTarget=n1kiea90s0276wn1xr0ig0hvkix6.htm).
 
 # %%
+"""
 from sasviya.ml.tree import GradientBoostingClassifier
 
 gb = GradientBoostingClassifier(n_estimators=100,
@@ -153,3 +149,4 @@ feature_importances.plot.bar();
 plt.xlabel('Features')
 plt.ylabel('Importance')
 plt.title('Feature Importance');
+"""
