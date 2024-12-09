@@ -7,5 +7,5 @@ def py_func(sasdate: float):
     dttm = ser[0]
     return dttm
 
-sasdate = 19778
-print('The SAS date ', sasdate, 'resolves to: ', py_func(19778.0))
+sasdate = 23742
+print('The SAS date ', sasdate, 'resolves to: ', py_func(sasdate))
