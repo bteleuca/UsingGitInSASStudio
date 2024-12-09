@@ -21,6 +21,10 @@ print(os.getcwd())
 workspace = os.getcwd() + '/UsingGitInSASStudio/data/'
 df = pd.read_csv(workspace + "banking_raw.csv")
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/feature/sas_workbench
 df.head()
 
 # %% [markdown]
