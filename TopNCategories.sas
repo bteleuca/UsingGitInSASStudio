@@ -22,6 +22,9 @@
 title "Top Models by MPG_City for each region of Type";
 footnote;
 
+/* his-branch: add merror option */
+options merror;
+
 /* summarize the data across a category and store */
 /* the output in an output data set */
 proc means data=&data &stat noprint;
